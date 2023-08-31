@@ -1,0 +1,1 @@
+import{c as a}from"./@popperjs.5489edc1.js";function n(e,o,t,p){return a(e,o,{placement:t,modifiers:[{name:"computeStyles",options:{gpuAcceleration:!1}},{name:"computeStyles",options:{adaptive:!1}},{name:"offset",options:{offset:[p]}}]})}export{n as _};

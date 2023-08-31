@@ -1,0 +1,1 @@
+function n(e,o){const t="[Rabbit] Error: ";if(!e)throw new Error(`The target element you selected for configuration does not exist -- > '${e}'. This error occurred in the ${o} component`);const r=e.tagName.toLowerCase().replace(/r-/,"");if(r!==o)throw new Error().message=`${t}The configured component was selected incorrectly, it is not a ${o} component --> "${r}"`}export{n as v};
