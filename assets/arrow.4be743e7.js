@@ -1,0 +1,1 @@
+import{$ as r}from"./index.4b091e71.js";function c(){const e=r(".rab-tooltip-popper",{all:!0}),o=r(".rab-poptip-popper",{all:!0}),l=n=>{n.forEach(t=>{const{popperPlacement:p}=t.dataset;t.getAttribute("x-placement")!=p&&t.setAttribute("x-placement",p)})};e.length>0&&window.addEventListener("scroll",()=>l(e)),o.length>0&&window.addEventListener("scroll",()=>l(o))}export{c as s};
